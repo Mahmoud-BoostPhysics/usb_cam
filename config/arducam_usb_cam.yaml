@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/video0"
+    framerate: 30.0
+    io_method: "mmap"
+    frame_id: "arducam_link"
+
+    pixel_format: "mjpeg2rgb"
+    image_width: 1920
+    image_height: 1080
+
+    camera_name: "arducam_imx291"
+    # Leave calibration empty for now (no error spam)
+    camera_info_url: ""
